@@ -1,0 +1,28 @@
+{
+  "opcion": "CORTE_MASIVO",
+  "empresa": "MD",
+  "usrCreacion": "procesosmasivos",
+  "ipCreacion": "127.0.0.1",
+  "comandoConfiguracion": "SI",
+  "ejecutaComando": "SI",
+  "datos_elemento": {
+    "nombre_elemento": "olt-zte-8-labuio-uio",
+    "ip_elemento": "10.221.18.61"
+  },
+  "cambio_plan": {
+    "gem_port_nuevo": "",
+    "traffic_table_nuevo": "",
+    "line_profile_nuevo": "",
+    "tipo_negocio_nuevo": "",
+    "vlan_nuevo": ""
+  },
+  "datos_cliente": [
+    {
+    "puerto": "3/1",  "ont_id": "1",  "spid": "402718976",  "service_profile": "ZTEG-F6600P",  "gemport": "1",  "vlan": "301",  "traffic_table": "995",  "line_profile": "EN_PLAN_30M", "serie_ont": "5A544547D14B03C7","mac_ont": "2065.8E69.740F","tipo_negocio_actual": "HOME","id_servicio": "1354442", "login": "md-cguerra1","proceso_det_id": "5492076", "accion": "CortarClienteZTEG-F6600P","capacidad_up": "25000", "capacidad_down": "25000","ip_fijas_activas": "0"
+    },
+    {
+      "puerto": "3/1",  "ont_id": "2",  "spid": "402784512",  "service_profile": "ZTEG-F670L",  "gemport": "1",  "vlan": "301",  "traffic_table": "995",  "line_profile": "EN_PLAN_30M", "serie_ont": "5A544547C8B62F66","mac_ont": "2065.8E69.740F","tipo_negocio_actual": "HOME","id_servicio": "1354442", "login": "md-cguerra2","proceso_det_id": "5492076", "accion": "CortarClienteZTEG-F670L","capacidad_up": "100000", "capacidad_down": "100000","ip_fijas_activas": "0"
+    }
+
+  ]
+}
